@@ -26,4 +26,7 @@
     .spanTag{
         @apply cursor-pointer hover:underline dark:text-white text-[#20484F] text-[10px] md:text-[13px] sm:text-[16px];
     }
+    .copyright{
+        @apply dark:border-white bg-[#ffffff] dark:bg-gray-900  text-center py-5 border-t border-[#20484F1A] mx-10 md:mx-20; 
+    }
 }
